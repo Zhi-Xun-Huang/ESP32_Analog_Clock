@@ -115,7 +115,8 @@ Open a terminal that in the project folder and run these commands.
 ```
 > ls
 ```
-After that, you will see some file like: ```README.md  esp32_st7789_optimized.ino  image2header_cvt.py your_picture.png```
+After that, you will see some file like: <br />
+```README.md  esp32_st7789_optimized.ino  image2header_cvt.py your_picture.png```
 ```
 > python3 image2header_cvt.py your_picture.png
 ```
@@ -126,8 +127,8 @@ After that, you will see a message "Convert Complete" and there is a new file ge
 Assure ```image_data.h``` is in your project folder.
 ## 6. Compile and Upload Firmware
 Open ```esp32_st7789_optimized.ino``` in Arduino IDE. <br />
-You can modify the defination in ```esp32_st7789_optimized.ino```. <br />
-For different wiring and resolution, modify these defination:
+You can modify the definition in ```esp32_st7789_optimized.ino```. <br />
+For different wiring and resolution, modify these definition:
 ```
 // Pin definitions for ST7789
 #define TFT_CS     5  // Chip_Select pin
